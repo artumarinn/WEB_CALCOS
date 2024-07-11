@@ -3,29 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcos Cut</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Calcos hechas para vos</h1>
-        <img src="ruta/a/imagen_principal.jpg" alt="Imagen principal">
+    <title>Catálogo de Calcomanías</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <header class="header">
+        <div class="header-content">
+            <h1 class="site-title">Calcos Cut</h1>
+            
+            <!-- Menú de productos -->
+            <div class="dropdown">
+                <button class="dropbtn">Productos</button>
+                <div class="dropdown-content">
+                    <a href="vinilos/vinilo_blanco.html">VINILO BLANCO</a>
+                    <a href="vinilos/holografico.html">HOLOGRÁFICO</a>
+                    <a href="vinilos/imantado.html">IMANTADO</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="catalog">
-            <div class="item" onclick="location.href='vinilo_blanco.html'">
-                <h2>VINILO BLANCO</h2>
+    
+    <main class="main">
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Descubre nuestro catálogo de calcomanías</h2>
+                <p class="hero-subtitle">Explora una variedad de diseños únicos y personalizados para ti!</p>
             </div>
-            <div class="item" onclick="location.href='holografico.html'">
-                <h2>HOLOGRÁFICO</h2>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3 class="feature-title">VINILO BLANCO</h3>
+                <img src="img/vinilo_blanco.png" alt="Vinilo Blanco">
+                <p class="feature-description">Vinilos blancos para cualquier tipo de superficie. Descubre más detalles sobre nuestros diseños.</p>
+                <a href="vinilos/vinilo_blanco.html" class="feature-link">Ver más</a>
             </div>
-            <div class="item" onclick="location.href='imantado.html'">
-                <h2>IMANTADO</h2>
+            <div class="feature">
+                <h3 class="feature-title">HOLOGRÁFICO</h3>
+                <img src="img//holografico.png" alt="Holográfico">
+                <p class="feature-description">Descubre los efectos brillantes y holográficos de nuestros vinilos. Perfectos para destacar.</p>
+                <a href="vinilos/holografico.html" class="feature-link">Ver más</a>
+            </div>
+            <div class="feature">
+                <h3 class="feature-title">IMANTADO</h3>
+                <img src="img/imantado.png" alt="Imantado">
+                <p class="feature-description">Vinilos imantados ideales para decoración y funcionalidad. Explora todas las posibilidades.</p>
+                <a href="vinilos/imantado.html" class="feature-link">Ver más</a>
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Tu Negocio de Calcomanías</p>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Tu Negocio de Calcomanías</p>
     </footer>
 </body>
 </html>
