@@ -47,7 +47,7 @@ body {
 }
 
 .nav-item a:hover {
-    color: #000000; /* Amarillo */
+    color: #000000; 
 }
 
 /* Hero Section */
@@ -67,6 +67,26 @@ body {
 }
 
 .hero-subtitle {
+    font-size: 1.5rem;
+}
+
+/* Hero2 Section */
+.hero2 {
+    background-color: #ffd700;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    color: #fff;
+    padding: 5rem 1rem;
+}
+
+.hero2-title {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero2-subtitle {
     font-size: 1.5rem;
 }
 
@@ -183,3 +203,4 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
