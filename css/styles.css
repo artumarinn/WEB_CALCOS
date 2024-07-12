@@ -52,10 +52,12 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: url('img/hero-background.jpg');
+    background-image: url('../img/hero-background.jpeg');
     background-size: cover;
     background-position: center;
     text-align: center;
+    color: black;
+    color: #fff;
     padding: 5rem 1rem;
 }
 
@@ -66,6 +68,14 @@ body {
 
 .hero-subtitle {
     font-size: 1.5rem;
+}
+
+.vinilo-title {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #ffd700;
+    padding: 5px;
 }
 
 /* Características (Features) */
@@ -81,7 +91,7 @@ body {
     padding: 2rem;
     margin: 1rem;
     background-color: #ffd700;
-    border: 2px solid #fff;
+    border: 2px solid #faf9f9;
     border-radius: 10px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -102,13 +112,13 @@ body {
 
 .feature-description {
     font-size: 1.1rem;
-    color: #fff;
+    color: #070707;
 }
 
 .feature-link {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #000000; /* Amarillo */
+    background-color: #000000; 
     color: #f8f8f8;
     text-decoration: none;
     border-radius: 5px;
@@ -118,7 +128,7 @@ body {
 
 .feature-link:hover {
     background-color: #000;
-    color: #ffd700; /* Amarillo */
+    color: #ffd700; 
 }
 
 /* Pie de página */
@@ -130,13 +140,11 @@ body {
 
 .footer-text {
     margin: 0;
-    color: #fff;
+    color: #fffefe;
     font-size: 0.9rem;
 }
 
 /* Menu desplegable*/
-
-/* Estilos del dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
