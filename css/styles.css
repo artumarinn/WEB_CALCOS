@@ -78,7 +78,7 @@ body {
     background-position: center;
     text-align: center;
     color: black;
-    color: #fff;
+    color: #000000;
     padding: 5rem 1rem;
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .footer-text {
-    margin: 0;
+    margin:0%;
     color: #fffefe;
     font-size: 0.9rem;
 }
@@ -172,14 +172,17 @@ body {
 }
 
 .dropbtn {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffd700;
+    color: #000;
     font-size: 1.2rem;
     border: none;
     cursor: pointer;
     padding: 1rem 1.5rem;
     text-transform: uppercase;
 }
+
+
+
 
 .dropdown-content {
     display: none;
