@@ -123,8 +123,35 @@ nav {
 .hero-title {
     margin: 0;
     font-size: 3rem;
+    
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
+}
+
+/* Galeria de Fotos*/
+
+div.galery{
+    margin: 10px 20px;
+    float: left;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+div.galery img{
+    width: 100%;
+    height: auto;
+}
+
+div.galery:hover{
+    transform: scale(1.2);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+div.pie{
+    text-align: center;
+    padding: 10px;
 }
