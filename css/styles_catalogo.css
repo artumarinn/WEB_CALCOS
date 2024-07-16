@@ -7,22 +7,30 @@ body {
 }
 
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #ffd700;
     padding: 10px;
-    text-align: center;
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    
+    text-decoration: none;
 }
 
 .site-title {
     font-family: 'Monaco', monospace;
     margin: 0;
     font-size: 2.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 .navigation {
@@ -90,3 +98,33 @@ body {
     display: block;
 }
 
+.contacto-link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.contacto-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('../img/background-catalogo.jpg') ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #f5f5f5;
+    padding: 5rem 1rem;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+}
